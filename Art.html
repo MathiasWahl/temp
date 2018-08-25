@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <title>Artproject</title>
+
+  </head>
+  <body>
+    <header id = "mainHeader">
+      <h1>Art Project</h1>
+    </header>
+    <br>
+    <div class="wrapper">
+
+      <div class="canvasBox">
+        <svg class="canvas" width="700" height="500">
+
+          <rect class="middleRect" x="150" y = "50"  width="200" height="400" rx ="20" ry = "20" />
+          <circle class "upperCircle" cx = "250" cy = "115" r = "60" />
+          <circle class="circle" cx="250" cy="250" r="70"/>
+
+          <rect class="rect" x="0" width="25" height="25" />
+          <rect class="rect" x="475"  width="25" height="25" />
+          <rect class="rect" x="475" y = "475"  width="25" height="25" />
+          <rect class="rect" x="0" y = "475"  width="25" height="25" />
+          <line id = "lineOne" x1="0" y1 = "0" x2 = "500" y2 = "500"/>
+
+
+          <polygon class="face"  points= "275,175 275,285 350,400 425,285 425,175 350,150" stroke-linejoin="round"; />
+          <g class="hair">
+            <circle cx="275" cy="175" r="25"/>
+          </g>
+          <polygon class="suit" points="100,500 100,400 200,400, 350,450, 500,400 600,400, 600,500" stroke-linejoin="round"; />
+
+          <circle class="sun" cx="0" cy="0" r="150"/>
+
+          <rect class="rectum" x="50" y = "50"  width="25" height="25" />
+
+        </svg>
+      </div>
+
+      <div class="information">
+        <div>
+          <h3>About the artist</h3>
+          <p>This is where I will put info about the artist and inspiration. For now: <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+
+    </div>
+<!--
+  <div class="canvasBox">
+    <canvas id="canvas" height="400" width="400"></canvas>
+    <script src="script.js"></script>
+  </div>
+
+-->
+
+  </body>
+  <footer>
+    <button onclick="myFunction()">Click Me</button>
+
+    <div id="myDIV">
+      This is my DIV element. Hello
+    </div>
+
+  </footer>
+</html>

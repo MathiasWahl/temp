@@ -1,0 +1,123 @@
+
+#mainHeader {
+  background-color: indianred;
+  font-family: 'Sofia';
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding-right: 50px;
+
+}
+
+.information {
+font-family: 'Sofia';
+font-size: 22px;
+}
+
+.canvas {
+  align-items: center;
+  border: 1px solid black;
+  fill: blue;
+
+}
+
+.canvasBox {
+  text-align: center;
+}
+
+.rect{
+  fill:indianred;
+  stroke-width:2;
+  stroke:rgb(0,0,0);
+  cursor: pointer;
+}
+
+.rect:hover{
+  fill: blue;
+}
+
+.middlerect{
+  fill:indianred;
+  stroke-width:2;
+  stroke:rgb(0,0,0);
+  opacity: 0.9;
+}
+
+.circle {
+  stroke: red;
+  stroke-width: 4px;
+  fill: indianred;
+}
+
+.circle:hover {
+  fill: yellow;
+}
+
+.doubleClicked {
+  fill: black;
+}
+
+#lineOne {
+  stroke: rgb(0,255,0);
+  stroke-width: 3px;
+}
+
+#polyOne {
+  fill:lime;
+  stroke: black;
+  opacity: 0.4
+
+}
+
+#moreInfo {
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+.face{
+  fill: #E0AC69;
+  stroke:#E0AC69;
+  stroke-width: 20px;
+}
+.face:hover{
+  /*transform: translateX(20px);
+  transition: all 300ms linear;*/
+  fill: black;
+  stroke: black;
+}
+
+.hair{
+  fill: red;
+}
+
+.suit{
+  fill: red;
+  stroke: black;
+  stroke-width: 15px;
+}
+
+.sun{
+  fill: yellow;
+}
+
+.sun:hover{
+  fill: blue;
+}
+
+
+.rectum{
+  fill: blue;
+}
+
+.rectum2{
+  fill: yellow;
+}
