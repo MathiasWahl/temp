@@ -40,6 +40,13 @@ $(document).ready(function() {
     $( this ).slideDown();
   });
 
+	
+	
+  $( ".mytext" ).dblclick(function() {
+    $(this).slideUp();
+    $( this ).slideDown();
+  });
+
 
 
 });
